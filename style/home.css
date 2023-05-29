@@ -1,0 +1,356 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+.kemitraan h2 {
+    text-align: center;
+}
+.mikro li p{
+	color: #646464;
+}
+@media (max-width:992px) {
+    html body main .jumbotron {
+        height: 80vh;
+    }
+
+    .news .content .event {
+        padding-left: 40px;
+        margin-block: 30px;
+    }
+
+    .news .content .event h2 {
+        margin-bottom: 20px;
+    }
+
+    .news .content .berita-kegiatan .list-berita {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+@media (max-width:767px) {
+    html body main .jumbotron {
+        height: 70vh;
+    }
+
+    .kemitraan .container .col img {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    html body main .jumbotron {
+        height: 60vh;
+    }
+
+    .news .content .berita-kegiatan .list-berita .berita-2 h3 {
+        position: absolute;
+        padding-inline: 10px;
+        font-size: 90%;
+        margin-block: 60% 0;
+    }
+
+    .news .content .berita-kegiatan .list-berita .berita-2 {
+        width: 120%;
+    }
+}
+.nav1 a{
+	color: #cfcfcf;
+}
+.more a{
+	text-decoration: none;
+	/* font-weight: bold; */
+}
+.more a:hover{
+	color: #24262b;
+}
+.nav1 a:hover{
+	color: #ffffff;
+}
+.b::placeholder{
+	color: #c7c7c7;
+}
+.nav2 a{
+	font-size: 13px;
+	padding: 8px;	
+	color: black;
+	font-weight: bold;
+}
+.nav2 a:hover{
+	background-color: transparent;
+	color: #007a00;
+	font-weight: bold;
+}
+@media (max-width: 720px) {
+	.mitra{
+		padding: 100px;
+	}
+}
+a{
+	display: inline-block;
+    position: relative;
+}
+.dropdown-toggle::after{
+	display: none
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+.dropdown .dropdown-toggle:active {
+	  pointer-events: none;
+}
+.dropdown-menu{
+	border: none;
+	background-color: #c4c4c4;
+	border-radius: 0;
+	border-left: 2px solid #09ff00;
+}
+
+.navbar2 .navbar-nav .nav-link {
+	color: #ffffff;
+	font-size: 1em;
+}
+.navbar2 .navbar-nav .nav-link:hover {
+	color: #09ff00
+}
+.navbar2 .navbar-nav .nav-item {
+	position: relative;
+}
+  .navbar2 .navbar-nav .nav-item::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #09ff00;
+	width: 0%;
+	content: "";
+	height: 4px;
+	transition: all 0.3s;
+  }
+  
+  .navbar2 .navbar-nav .nav-item:hover::after {
+	width: 100%;
+  }
+
+  /* kontak  */
+  html body main .kontak {
+    width: 100%;
+    /* padding-block: 20px;	 */
+    background-size: cover;
+    text-align: center;
+}
+
+main .kontak h1 {
+    
+    font-size: 85px;
+    font-weight: bold;
+}
+
+main .container {
+    gap: 10%;
+}
+
+main .container .content {
+    width: 35%;
+    background-color: transparent;
+	border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 0px;
+    /* margin-top: -220px; */
+    margin-block: 50px;
+    text-align: start;
+}
+
+main .container .img-kontak {
+    width: 60%;
+    margin-block: 50px
+}
+
+main .container .img-kontak iframe {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main .container .content h6 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+main .container .content p {
+    font-size: 20px;
+}
+
+@media (max-width:767px) {
+
+    main .container .content {
+        width: 100%;
+    }
+
+    main .container .img-kontak {
+        width: 100%;
+    }
+
+    main .kontak h1 {
+        font-size: 45px;
+    }
+}
+.pdf a{
+	text-decoration: none;
+}
+/* kontak end  */
+
+/* berita  */
+.berita{
+	padding: 40px;
+	margin: 40px;
+	height: 100%;
+	border: none;
+}
+.poster{
+	padding: 40px;
+	margin: 40px;
+}
+.teks p{
+	font-size: 15px;
+	text-align: justify;
+	font-weight: bold;
+	color: #646464;
+}
+.poster img{
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	width: 50%;
+}
+.post{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: bold;
+}
+.berita img{
+	aspect-ratio: 1/1;
+	object-fit: cover;
+}
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 72px;
+	color: white;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+  }
+@media(max-width:576px){
+	.centered{
+		font-size: 45px;
+	}
+}
+.card-body .btn{
+	border-radius: 0
+}
+.card-body a{
+	text-decoration: none;
+	color: black
+}
+.card-body a:hover{
+	color: #0000e9
+}
+
+/* end berita  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #007a00;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
